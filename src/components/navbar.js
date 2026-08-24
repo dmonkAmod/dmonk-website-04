@@ -1,3 +1,4 @@
+const base = import.meta.env.BASE_URL
 class SiteNavbar extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -18,9 +19,10 @@ class SiteNavbar extends HTMLElement {
         >
 
           <!-- Logo / Home -->
-          <a href="/" aria-label="dMonk home" class="shrink-0">
+          
+          <a href="${base}" aria-label="dMonk home" class="shrink-0">
             <img
-              src="/images/dmonk-logo.png"
+              src="${base}images/dmonk-logo.png"
               alt="dMonk"
               class="h-auto w-[120px]"
             />
