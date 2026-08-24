@@ -42,28 +42,28 @@ class SiteNavbar extends HTMLElement {
             aria-label="Main navigation"
           >
             <a
-              href="/#problem"
+              href="${base}#problem"
               class="transition-colors hover:text-black"
             >
               Problem
             </a>
 
             <a
-              href="/#solution"
+              href="${base}#solution"
               class="transition-colors hover:text-black"
             >
               Solution
             </a>
 
             <a
-              href="/#how-it-works"
+              href="${base}#how-it-works"
               class="transition-colors hover:text-black"
             >
               How it works
             </a>
 
             <a
-              href="/#benefits"
+              href="${base}#benefits"
               class="transition-colors hover:text-black"
             >
               Benefits
@@ -127,19 +127,19 @@ class SiteNavbar extends HTMLElement {
               text-[#444444]
             "
           >
-            <a href="/#problem" data-menu-link>
+            <a href="${base}#problem" data-menu-link>
               Problem
             </a>
 
-            <a href="/#solution" data-menu-link>
+            <a href="${base}#solution" data-menu-link>
               Solution
             </a>
 
-            <a href="/#how-it-works" data-menu-link>
+            <a href="${base}#how-it-works" data-menu-link>
               How it works
             </a>
 
-            <a href="/#benefits" data-menu-link>
+            <a href="${base}#benefits" data-menu-link>
               Benefits
             </a>
 

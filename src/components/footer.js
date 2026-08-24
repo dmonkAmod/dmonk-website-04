@@ -1,3 +1,4 @@
+const base = import.meta.env.BASE_URL
 class SiteFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
@@ -35,15 +36,15 @@ class SiteFooter extends HTMLElement {
             class="flex flex-col items-start md:col-span-4"
             aria-label="Legal"
           >
-            <a href="/terms/" class="transition-colors hover:text-black">
+            <a href="${base}terms/" class="transition-colors hover:text-black">
               Terms of Use
             </a>
 
-            <a href="/privacy-website/" class="transition-colors hover:text-black">
+            <a href="${base}privacy-website/" class="transition-colors hover:text-black">
               Privacy Policy for Website Visitors
             </a>
 
-            <a href="/privacy-users/" class="transition-colors hover:text-black">
+            <a href="${base}privacy-users/" class="transition-colors hover:text-black">
               Privacy Policy for dMonk Users
             </a>
           </nav>
