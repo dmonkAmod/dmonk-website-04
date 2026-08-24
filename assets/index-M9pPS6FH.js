@@ -1,4 +1,4 @@
-var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var t=e((()=>{var e=class extends HTMLElement{connectedCallback(){this.innerHTML=`
+var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var t=e((()=>{var e=`/website_version_04/`,t=class extends HTMLElement{connectedCallback(){this.innerHTML=`
       <header class="border-b border-[#eeeeee] bg-white">
 
         <!-- Main navbar -->
@@ -16,9 +16,10 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
         >
 
           <!-- Logo / Home -->
-          <a href="/" aria-label="dMonk home" class="shrink-0">
+          
+          <a href="${e}" aria-label="dMonk home" class="shrink-0">
             <img
-              src="/images/dmonk-logo.png"
+              src="${e}images/dmonk-logo.png"
               alt="dMonk"
               class="h-auto w-[120px]"
             />
@@ -157,7 +158,7 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
         </nav>
 
       </header>
-    `;let e=this.querySelector(`[data-menu-button]`),t=this.querySelector(`[data-mobile-menu]`),n=this.querySelectorAll(`[data-menu-link]`),r=()=>{t.classList.add(`hidden`),e.textContent=`Menu`,e.setAttribute(`aria-expanded`,`false`)},i=()=>{t.classList.remove(`hidden`),e.textContent=`Close`,e.setAttribute(`aria-expanded`,`true`)};e.addEventListener(`click`,()=>{e.getAttribute(`aria-expanded`)===`true`?r():i()}),n.forEach(e=>{e.addEventListener(`click`,r)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&r()})}};customElements.get(`site-navbar`)||customElements.define(`site-navbar`,e)})),n=e((()=>{var e=class extends HTMLElement{connectedCallback(){this.innerHTML=`
+    `;let t=this.querySelector(`[data-menu-button]`),n=this.querySelector(`[data-mobile-menu]`),r=this.querySelectorAll(`[data-menu-link]`),i=()=>{n.classList.add(`hidden`),t.textContent=`Menu`,t.setAttribute(`aria-expanded`,`false`)},a=()=>{n.classList.remove(`hidden`),t.textContent=`Close`,t.setAttribute(`aria-expanded`,`true`)};t.addEventListener(`click`,()=>{t.getAttribute(`aria-expanded`)===`true`?i():a()}),r.forEach(e=>{e.addEventListener(`click`,i)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&i()})}};customElements.get(`site-navbar`)||customElements.define(`site-navbar`,t)})),n=e((()=>{var e=class extends HTMLElement{connectedCallback(){this.innerHTML=`
       <footer class="border-t border-[#eeeeee]">
         <div
           class="
