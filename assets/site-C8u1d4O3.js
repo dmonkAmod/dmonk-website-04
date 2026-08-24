@@ -67,7 +67,7 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             </a>
 
             <a
-              href="#"
+              href="https://app.server.dmonk.ai/login"
               class="
                 ml-4
                 font-medium
@@ -141,7 +141,7 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             </a>
 
             <a
-              href="#"
+              href="https://app.server.dmonk.ai/login"
               class="
                 mt-2
                 border-t
