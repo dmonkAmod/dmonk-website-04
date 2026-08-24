@@ -39,28 +39,28 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             aria-label="Main navigation"
           >
             <a
-              href="/#problem"
+              href="${e}#problem"
               class="transition-colors hover:text-black"
             >
               Problem
             </a>
 
             <a
-              href="/#solution"
+              href="${e}#solution"
               class="transition-colors hover:text-black"
             >
               Solution
             </a>
 
             <a
-              href="/#how-it-works"
+              href="${e}#how-it-works"
               class="transition-colors hover:text-black"
             >
               How it works
             </a>
 
             <a
-              href="/#benefits"
+              href="${e}#benefits"
               class="transition-colors hover:text-black"
             >
               Benefits
@@ -124,19 +124,19 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
               text-[#444444]
             "
           >
-            <a href="/#problem" data-menu-link>
+            <a href="${e}#problem" data-menu-link>
               Problem
             </a>
 
-            <a href="/#solution" data-menu-link>
+            <a href="${e}#solution" data-menu-link>
               Solution
             </a>
 
-            <a href="/#how-it-works" data-menu-link>
+            <a href="${e}#how-it-works" data-menu-link>
               How it works
             </a>
 
-            <a href="/#benefits" data-menu-link>
+            <a href="${e}#benefits" data-menu-link>
               Benefits
             </a>
 
@@ -158,7 +158,7 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
         </nav>
 
       </header>
-    `;let t=this.querySelector(`[data-menu-button]`),n=this.querySelector(`[data-mobile-menu]`),r=this.querySelectorAll(`[data-menu-link]`),i=()=>{n.classList.add(`hidden`),t.textContent=`Menu`,t.setAttribute(`aria-expanded`,`false`)},a=()=>{n.classList.remove(`hidden`),t.textContent=`Close`,t.setAttribute(`aria-expanded`,`true`)};t.addEventListener(`click`,()=>{t.getAttribute(`aria-expanded`)===`true`?i():a()}),r.forEach(e=>{e.addEventListener(`click`,i)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&i()})}};customElements.get(`site-navbar`)||customElements.define(`site-navbar`,t)})),n=e((()=>{var e=class extends HTMLElement{connectedCallback(){this.innerHTML=`
+    `;let t=this.querySelector(`[data-menu-button]`),n=this.querySelector(`[data-mobile-menu]`),r=this.querySelectorAll(`[data-menu-link]`),i=()=>{n.classList.add(`hidden`),t.textContent=`Menu`,t.setAttribute(`aria-expanded`,`false`)},a=()=>{n.classList.remove(`hidden`),t.textContent=`Close`,t.setAttribute(`aria-expanded`,`true`)};t.addEventListener(`click`,()=>{t.getAttribute(`aria-expanded`)===`true`?i():a()}),r.forEach(e=>{e.addEventListener(`click`,i)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&i()})}};customElements.get(`site-navbar`)||customElements.define(`site-navbar`,t)})),n=e((()=>{var e=`/website_version_04/`,t=class extends HTMLElement{connectedCallback(){this.innerHTML=`
       <footer class="border-t border-[#eeeeee]">
         <div
           class="
@@ -193,15 +193,15 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             class="flex flex-col items-start md:col-span-4"
             aria-label="Legal"
           >
-            <a href="/terms/" class="transition-colors hover:text-black">
+            <a href="${e}terms/" class="transition-colors hover:text-black">
               Terms of Use
             </a>
 
-            <a href="/privacy-website/" class="transition-colors hover:text-black">
+            <a href="${e}privacy-website/" class="transition-colors hover:text-black">
               Privacy Policy for Website Visitors
             </a>
 
-            <a href="/privacy-users/" class="transition-colors hover:text-black">
+            <a href="${e}privacy-users/" class="transition-colors hover:text-black">
               Privacy Policy for dMonk Users
             </a>
           </nav>
@@ -230,4 +230,4 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
 
         </div>
       </footer>
-    `}};customElements.define(`site-footer`,e)}));e((()=>{t(),n()}))();
+    `}};customElements.define(`site-footer`,t)})),r=e((()=>{t(),n()}));export{r as t};
