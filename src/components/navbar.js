@@ -70,7 +70,7 @@ class SiteNavbar extends HTMLElement {
             </a>
 
             <a
-              href="#"
+              href="https://app.server.dmonk.ai/login"
               class="
                 ml-4
                 font-medium
@@ -144,7 +144,7 @@ class SiteNavbar extends HTMLElement {
             </a>
 
             <a
-              href="#"
+              href="https://app.server.dmonk.ai/login"
               class="
                 mt-2
                 border-t
