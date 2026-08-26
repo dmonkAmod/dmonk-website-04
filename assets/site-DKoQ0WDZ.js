@@ -1,4 +1,4 @@
-var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var t=e((()=>{var e=`/website_version_04/`,t=class extends HTMLElement{connectedCallback(){this.innerHTML=`
+var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function(){let e=document.createElement(`link`).relList;if(e&&e.supports&&e.supports(`modulepreload`))return;for(let e of document.querySelectorAll(`link[rel="modulepreload"]`))n(e);new MutationObserver(e=>{for(let t of e)if(t.type===`childList`)for(let e of t.addedNodes)e.tagName===`LINK`&&e.rel===`modulepreload`&&n(e)}).observe(document,{childList:!0,subtree:!0});function t(e){let t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),t.credentials=e.crossOrigin===`use-credentials`?`include`:e.crossOrigin===`anonymous`?`omit`:`same-origin`,t}function n(e){if(e.ep)return;e.ep=!0;let n=t(e);fetch(e.href,n)}})();var t=e((()=>{var e=class extends HTMLElement{connectedCallback(){this.innerHTML=`
       <header class="border-b border-[#eeeeee] bg-white">
 
         <!-- Main navbar -->
@@ -17,9 +17,9 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
 
           <!-- Logo / Home -->
           
-          <a href="${e}" aria-label="dMonk home" class="shrink-0">
+          <a href="/" aria-label="dMonk home" class="shrink-0">
             <img
-              src="${e}images/dmonk-logo.png"
+              src="/images/dmonk-logo.png"
               alt="dMonk"
               class="h-auto w-[120px]"
             />
@@ -39,28 +39,28 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             aria-label="Main navigation"
           >
             <a
-              href="${e}#problem"
+              href="/#problem"
               class="transition-colors hover:text-black"
             >
               Problem
             </a>
 
             <a
-              href="${e}#solution"
+              href="/#solution"
               class="transition-colors hover:text-black"
             >
               Solution
             </a>
 
             <a
-              href="${e}#how-it-works"
+              href="/#how-it-works"
               class="transition-colors hover:text-black"
             >
               How it works
             </a>
 
             <a
-              href="${e}#benefits"
+              href="/#benefits"
               class="transition-colors hover:text-black"
             >
               Benefits
@@ -124,19 +124,19 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
               text-[#444444]
             "
           >
-            <a href="${e}#problem" data-menu-link>
+            <a href="/#problem" data-menu-link>
               Problem
             </a>
 
-            <a href="${e}#solution" data-menu-link>
+            <a href="/#solution" data-menu-link>
               Solution
             </a>
 
-            <a href="${e}#how-it-works" data-menu-link>
+            <a href="/#how-it-works" data-menu-link>
               How it works
             </a>
 
-            <a href="${e}#benefits" data-menu-link>
+            <a href="/#benefits" data-menu-link>
               Benefits
             </a>
 
@@ -158,7 +158,7 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
         </nav>
 
       </header>
-    `;let t=this.querySelector(`[data-menu-button]`),n=this.querySelector(`[data-mobile-menu]`),r=this.querySelectorAll(`[data-menu-link]`),i=()=>{n.classList.add(`hidden`),t.textContent=`Menu`,t.setAttribute(`aria-expanded`,`false`)},a=()=>{n.classList.remove(`hidden`),t.textContent=`Close`,t.setAttribute(`aria-expanded`,`true`)};t.addEventListener(`click`,()=>{t.getAttribute(`aria-expanded`)===`true`?i():a()}),r.forEach(e=>{e.addEventListener(`click`,i)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&i()})}};customElements.get(`site-navbar`)||customElements.define(`site-navbar`,t)})),n=e((()=>{var e=`/website_version_04/`,t=class extends HTMLElement{connectedCallback(){this.innerHTML=`
+    `;let e=this.querySelector(`[data-menu-button]`),t=this.querySelector(`[data-mobile-menu]`),n=this.querySelectorAll(`[data-menu-link]`),r=()=>{t.classList.add(`hidden`),e.textContent=`Menu`,e.setAttribute(`aria-expanded`,`false`)},i=()=>{t.classList.remove(`hidden`),e.textContent=`Close`,e.setAttribute(`aria-expanded`,`true`)};e.addEventListener(`click`,()=>{e.getAttribute(`aria-expanded`)===`true`?r():i()}),n.forEach(e=>{e.addEventListener(`click`,r)}),document.addEventListener(`keydown`,e=>{e.key===`Escape`&&r()})}};customElements.get(`site-navbar`)||customElements.define(`site-navbar`,e)})),n=e((()=>{var e=class extends HTMLElement{connectedCallback(){this.innerHTML=`
       <footer class="border-t border-[#eeeeee]">
         <div
           class="
@@ -193,15 +193,15 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             class="flex flex-col items-start md:col-span-4"
             aria-label="Legal"
           >
-            <a href="${e}terms/" class="transition-colors hover:text-black">
+            <a href="/terms/" class="transition-colors hover:text-black">
               Terms of Use
             </a>
 
-            <a href="${e}privacy-website/" class="transition-colors hover:text-black">
+            <a href="/privacy-website/" class="transition-colors hover:text-black">
               Privacy Policy for Website Visitors
             </a>
 
-            <a href="${e}privacy-users/" class="transition-colors hover:text-black">
+            <a href="/privacy-users/" class="transition-colors hover:text-black">
               Privacy Policy for dMonk Users
             </a>
           </nav>
@@ -230,4 +230,4 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
 
         </div>
       </footer>
-    `}};customElements.define(`site-footer`,t)})),r=e((()=>{t(),n()}));export{r as t};
+    `}};customElements.define(`site-footer`,e)})),r=e((()=>{t(),n()}));export{r as t};
