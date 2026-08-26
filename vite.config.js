@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  base: '/website_version_04/',
+  base: '/',
 
   plugins: [
     tailwindcss(),
