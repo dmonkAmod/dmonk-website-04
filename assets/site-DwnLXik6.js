@@ -67,6 +67,13 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             </a>
 
             <a
+              href="/our-story/"
+              class="transition-colors hover:text-black"
+            >
+              Our story
+            </a>
+
+            <a
               href="https://app.server.dmonk.ai/login"
               class="
                 ml-4
@@ -138,6 +145,11 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
 
             <a href="/#benefits" data-menu-link>
               Benefits
+            </a>
+
+            <a
+              href="/our-story/" data-menu-link>
+              Our story
             </a>
 
             <a
