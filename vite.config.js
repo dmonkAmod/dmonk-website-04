@@ -16,6 +16,7 @@ export default defineConfig({
         terms: resolve(process.cwd(), 'terms/index.html'),
         privacyWebsite: resolve(process.cwd(), 'privacy-website/index.html'),
         privacyUsers: resolve(process.cwd(), 'privacy-users/index.html'),
+        ourStory: resolve(__dirname, 'our-story/index.html'),
       },
     },
   },

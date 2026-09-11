@@ -70,6 +70,13 @@ class SiteNavbar extends HTMLElement {
             </a>
 
             <a
+              href="${base}our-story/"
+              class="transition-colors hover:text-black"
+            >
+              Our story
+            </a>
+
+            <a
               href="https://app.server.dmonk.ai/login"
               class="
                 ml-4
@@ -141,6 +148,11 @@ class SiteNavbar extends HTMLElement {
 
             <a href="${base}#benefits" data-menu-link>
               Benefits
+            </a>
+
+            <a
+              href="${base}our-story/" data-menu-link>
+              Our story
             </a>
 
             <a
