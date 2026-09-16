@@ -18,6 +18,7 @@ export default defineConfig({
         privacyUsers: resolve(process.cwd(), 'privacy-users/index.html'),
         ourStory: resolve(__dirname, 'our-story/index.html'),
         feedback: resolve(__dirname, 'feedback/index.html'),
+        individual: resolve(__dirname, 'individual/index.html'),
       },
     },
   },
