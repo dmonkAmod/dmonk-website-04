@@ -70,6 +70,13 @@ class SiteNavbar extends HTMLElement {
             </a>
 
             <a
+                href="${base}individual/"
+                class="transition-colors hover:text-black"
+              >
+                Individual
+              </a>
+
+            <a
               href="${base}our-story/"
               class="transition-colors hover:text-black"
             >
@@ -150,6 +157,16 @@ class SiteNavbar extends HTMLElement {
               Benefits
             </a>
 
+            <a
+              href="${base}individual/"
+              class="transition-colors hover:text-black"
+            >
+              Individual
+            </a>
+                        
+            
+            
+            
             <a
               href="${base}our-story/" data-menu-link>
               Our story

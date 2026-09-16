@@ -52,11 +52,21 @@ class SiteFooter extends HTMLElement {
           <div class="md:col-span-4 md:text-right">
 
             <div class="flex gap-4 md:justify-end">
-              <a href="#" class="transition-colors hover:text-black">
+              <a
+                href="https://www.linkedin.com/company/dmonk-ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition-colors hover:text-black"
+              >
                 LinkedIn
               </a>
 
-              <a href="#" class="transition-colors hover:text-black">
+              <a
+                href="https://www.youtube.com/@dMonk-g7f"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition-colors hover:text-black"
+              >
                 YouTube
               </a>
             </div>
