@@ -67,6 +67,13 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             </a>
 
             <a
+                href="/individual/"
+                class="transition-colors hover:text-black"
+              >
+                Individual
+              </a>
+
+            <a
               href="/our-story/"
               class="transition-colors hover:text-black"
             >
@@ -148,6 +155,16 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
             </a>
 
             <a
+              href="/individual/"
+              class="transition-colors hover:text-black"
+            >
+              Individual
+            </a>
+                        
+            
+            
+            
+            <a
               href="/our-story/" data-menu-link>
               Our story
             </a>
@@ -221,11 +238,21 @@ var e=(e,t)=>()=>(t||(e((t={exports:{}}).exports,t),e=null),t.exports);(function
           <div class="md:col-span-4 md:text-right">
 
             <div class="flex gap-4 md:justify-end">
-              <a href="#" class="transition-colors hover:text-black">
+              <a
+                href="https://www.linkedin.com/company/dmonk-ai/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition-colors hover:text-black"
+              >
                 LinkedIn
               </a>
 
-              <a href="#" class="transition-colors hover:text-black">
+              <a
+                href="https://www.youtube.com/@dMonk-g7f"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="transition-colors hover:text-black"
+              >
                 YouTube
               </a>
             </div>
